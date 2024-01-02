@@ -1,0 +1,100 @@
+Module 6 JAVASCRIPT BASIC & DOM
+
+What is JavaScript? 
+JavaScript is a high-level programming language that is primarily used for creating dynamic and interactive websites. It is often referred to as the "language of the web" because it is widely supported by web browsers and used extensively in web development.
+
+What is the use of isNaN function?
+The isNaN() function is a built-in JavaScript function that is used to determine whether a value is NaN (Not-a-Number). NaN is a special value in JavaScript that represents an invalid number or a result that is not a number.
+
+What is negative Infinity? Negative Infinity is a special value in JavaScript that represents the concept of a number that is infinitely small or negative infinity. It is denoted by the constant -Infinity.
+Negative Infinity is used to represent a value that is smaller than any other number, including negative numbers. It is often the result of calculations or operations that result in a number that is too small to be represented within the numeric range of JavaScript.
+
+Which company developed JavaScript?
+JavaScript was developed by Brendan Eich at Netscape Communications Corporation.
+
+What are undeclared and undefined variables?
+An undeclared variable refers to a variable that has been used in the code without being declared using the var, let, or const keyword. An undefined variable refers to a variable that has been declared but has not been assigned a value. 
+Write the code for adding new elements dynamically?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp" value="">
+    <h1 id="h"></h1>
+    <p id="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad iure officia veniam illum distinctio assumenda dolorum nam, ipsa veritatis delectus, labore nisi voluptatem fuga necessitatibus earum. Laudantium perferendis atque mollitia!</p>
+    <button id="btn" onclick=" validate()">submit</button>
+    <script>
+        inp_tag = document.getElementById('inp');
+        h1_tag = document.getElementById('h');
+        p_tag = document.getElementById('p');
+        btn_tag = document.getElementById('btn');
+        function validate(){
+            inp_tag.value = "hello";
+            h1_tag.innerHTML = "Heading 1";
+            p_tag.innerText = "Lorem";
+            btn_tag.innerHTML ="Click Me!";
+        }
+    </script>
+</body>
+</html>
+
+What is the difference between ViewState and SessionState?
+ViewState is used to maintain the state of controls within a single web page, while SessionState is used to store and manage user-specific data across multiple requests and pages within a session. ViewState is client-side and specific to a page, while SessionState is server-side and shared among multiple pages in a session.
+
+
+
+What is === operator?
+It checks if the values being compared are not only equal in value but also of the same type.
+
+How can the style/class of an element be changed?
+Changing Inline style:
+const element = document.getElementById("myElement");
+element.style.color = "red";
+element.style.fontSize = "20px";
+Adding or removing CSS classes:
+const element = document.getElementById("myElement");
+element.classList.add("newClass");
+element.classList.remove("oldClass");
+Changing the entire class attribute:
+const element = document.getElementById("myElement");
+element.className = "newClass1 newClass2";
+
+How to read and write a file using JavaScript?
+Reading files using the File API:
+In a browser, you can use the File API to interact with files selected by the user through file input fields (<input type="file">).
+Writing files using server-side code:
+In Node.js, you can use the built-in fs module to read and write files.
+
+What are all the looping structures in JavaScript?
+1 for loop
+2 for of loop
+3 for in loop
+4 forEach loop
+5 while loop
+6 do while loop
+How can you convert the string of any base to an integer in JavaScript?
+In JavaScript, you can convert a string representation of a number in any base (binary, octal, decimal, hexadecimal) to an integer using the parseInt() function. The parseInt() function takes two arguments: the string to be converted and the base of the number system.
+What is the function of the delete operator?
+The delete operator in JavaScript is used to delete properties from objects or elements from an array.
+
+What are all the types of Pop up boxes available in JavaScript?
+window.alert()
+window.confirm()
+window.prompt()
+
+What is the use of Void (0)?
+In JavaScript, void(0) is a special expression that evaluates to undefined. It is commonly used as a placeholder in the href attribute of HTML anchor tags (<a> tags) to prevent the browser from navigating to a new page when the link is clicked.
+
+How can a page be forced to load another page in JavaScript?
+Using window.location.href
+Using window.location.assign( )
+Using window.location.replace()
+What are the disadvantages of using innerHTML in JavaScript?
+Security risks
+Overwriting Event Listeners
+Performance Impact
+Unintended Side Effects

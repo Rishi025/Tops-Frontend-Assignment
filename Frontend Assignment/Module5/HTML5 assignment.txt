@@ -1,0 +1,45 @@
+Q1.  What are the new tags added in HTML5?
+Ans. <header>, <nav>, <section>, <aside>, <article>, <figure> and <figcaption>, <main>, <footer>, <time>, <mark>.
+
+Q.2. How to embed audio and video in a webpage?
+Ans. To embed audio and video in a webpage we can use the following HTML elements.
+i)  <audio controls> <source src ="audio.mp3" type="audio/mpeg"> </audio>
+ii) <video controls> <source src ="video.mp4" type=video/mp4"> </video.
+
+Q.3. Semantic element in HTML5?
+Ans. <header>: Represents the introductory or navigational content at the beginning of a page or section.
+
+     <nav>: Defines a section of navigation links.
+
+     <main>: Represents the main content of the document, excluding headers, footers, and navigation.
+
+     <article>: Represents a self-contained composition, such as a blog post or news article.
+
+     <section>: Defines a thematic grouping of content within a document.
+
+     <aside>: Represents content that is tangentially related to the main content, often placed in a sidebar or as a   standalone section.
+
+     <footer>: Defines the footer of a document or a section, typically containing information about the author, copyright,  or contact details.
+
+     <figure>: Represents self-contained content, such as an image, illustration, diagram, or code snippet.
+
+     <figcaption>: Provides a caption or description for the content within a <figure> element.
+
+     <time>: Represents a specific date, time, or duration.
+
+Q.4. Canvas and SVG tags
+Ans. SVG- SVG has better scalability. So it can be printed with high quality at any resolution.SVG gives better performance with smaller number of objects or larger   surface.SVG can be modified through script and CSS.SVG is vector based and composed of shapes.
+
+     Canvas- Canvas has poor scalability. Hence it is not suitable for printing on higher resolution.Canvas gives better performance with smaller surface or larger number of objects.Canvas can be modified through script only.Canvas is raster based and composed of pixel.
+
+
+
+
+
+
+
+
+
+
+
+

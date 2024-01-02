@@ -1,0 +1,28 @@
+.App{
+  text-align:center;
+}
+.list{
+  background:green;
+}
+ul{
+  padding: 0 0 0 200px
+}
+li{
+  background:white;
+  width:50%;
+  
+}
+.count{
+  background:blue;
+}
+.count h1,h2{
+  color:white;
+}
+
+button{
+  height:30px;
+  margin-right:10px;
+  background:black;
+  color:white;
+  cursor:pointer;
+}

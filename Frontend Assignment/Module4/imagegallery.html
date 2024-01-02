@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .gallery, .shutter{
+            border:2px solid;
+        }
+        .main{
+            display:grid;
+            grid-template-columns: 9fr 1fr;
+            border:2px solid;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .shutter{
+            text-align: right;
+            background:black;
+            padding: 0 50px 0 0;
+        }
+        .shutter p{
+            color:white;
+            text-transform:uppercase;
+            font-weight:bold;   
+        }
+        .shutter li{
+            list-style: none;
+            color:white;
+            text-transform:uppercase;
+            margin: 20px 0 0 0; 
+        }
+        .shutter ul .a{
+            color:orangered;
+        }
+        .shutter .sociallinks i{
+            color:white;
+            margin:10px 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="gallery">
+    <img src="images/0.jpg" alt="">
+    <img src="images/1.jpg" alt="">
+    <img src="images/2.jpg" alt="">
+    <img src="images/3.jpg" alt="">
+    <img src="images/4.jpg" alt="">
+    <img src="images/5.jpg" alt="">
+    <img src="images/6.jpg" alt="">
+    <img src="images/7.jpg" alt="">
+    <img src="images/8.jpg" alt="">
+    <img src="images/9.jpg" alt="">
+    <img src="images/10.jpg" alt="">
+    <img src="images/11.jpg" alt="">
+    <img src="images/12.jpg" alt="">
+    <img src="images/13.jpg" alt="">
+    <img src="images/14.jpg" alt="">
+    <img src="images/15.jpg" alt="">
+    <img src="images/16.jpg" alt="">
+    <img src="images/17.jpg" alt="">
+    <img src="images/18.jpg" alt="">
+    <img src="images/19.jpg" alt="">
+    </div>
+    <div class="shutter">
+        <p>Shutter</p>
+        <ul>
+        <li class="a">Home</li>
+        <li>Photos</li>
+        <li>bio</li>
+        <li>blog</li>
+        <li>contact</li>
+        </ul>
+        <div class="sociallinks">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

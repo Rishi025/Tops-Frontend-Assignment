@@ -1,0 +1,112 @@
+What are the advantages of Bootstrap?
+i) Responsive Design
+ii) Time-Saving
+iii) Consistency and Customization
+iv) Cross-Browser Compatibility
+v) Mobile-First Approach
+vi) Community and Support
+vii) Extensive Component Library
+viii) Flexbox and Grid System
+ix) Accessibility
+x) Continous Development and Improvement
+
+
+What is a Bootstrap Container, and how does it work?
+The container in Bootstrap is designed to work along with its grid system, which is based on Flexbox. The grid system allows you to divide the page into rows and columns, making it easier to arrange content and create responsive layouts that adapt to different screen sizes.
+
+There are three types of containers in Bootstrap:
+
+.container: This is the default container class in Bootstrap. It provides a responsive fixed-width container that centers the content horizontally within the page. The container's width is set to a specific value (for different screen sizes), and the content inside the container does not expand beyond this width.
+
+.container-fluid: This class creates a full-width container that spans the entire width of the viewport. It automatically adjusts its size based on the screen size and resizes proportionally as the screen size changes. The content inside a .container-fluid will stretch to fit the entire width of the screen.
+
+.container-{breakpoint}: Bootstrap 5 introduced the concept of responsive containers that can have different widths based on different breakpoints (screen sizes). For example, you can have .container-sm to set a specific width for small screens and .container-md for medium screens.
+
+What are the default Bootstrap text settings?
+In Bootstrap, there are several default text settings that define the appearance and styles of textual content. Here are some of the default Bootstrap text settings:
+.text-left: This class aligns the text to the left.
+
+.text-center: This class centers the text horizontally.
+
+.text-right: This class aligns the text to the right.
+
+.text-justify: This class justifies the text, meaning it stretches the content of each line to have equal width, except for the last line.
+
+.text-wrap: This class forces the text to wrap within its container instead of overflowing.
+
+.text-nowrap: This class prevents the text from wrapping, causing it to stay on a single line and potentially overflow its container.
+
+.text-break: This class enables word and line breaking within the text, ensuring it wraps appropriately and doesn't cause layout issues.
+
+.text-uppercase: This class transforms the text to be in all uppercase letters.
+
+.text-lowercase: This class transforms the text to be in all lowercase letters.
+
+.text-capitalize: This class capitalizes the first letter of each word in the text.
+
+
+What do you know about the Bootstrap Grid System?
+The Bootstrap Grid System is a powerful layout system that helps developers create responsive and flexible web page layouts. It is based on a 12-column grid that allows content to be organized into rows and columns, providing a consistent and structured layout across different screen sizes and devices.
+
+What is the difference between Bootstrap 4 and Bootstrap 5
+i) CSS Framework Rewrite
+ii) No jQuery Dependency
+iii) Customizable and Smaller File Size
+iv) New Components
+v) Documentation and Examples
+vi) Improved Grid System
+vii) Dropped Browser Support
+viii) Utility API Improvements
+
+
+What is a Button Group, and what is the class for a basic Button Group?
+A Button Group in Bootstrap is a set of buttons grouped together to create a cohesive visual element with shared styles and behavior. It allows you to group related buttons and present them as a single unit, often used for actions or options that are closely related.
+
+To create a basic Button Group in Bootstrap, you use the .btn-group class. This class wraps a group of <button> elements with the .btn class or <a> elements with the .btn class to create the buttons.
+
+
+How can you use Bootstrap to make thumbnails?
+In Bootstrap, you can create thumbnails using the .img-thumbnail class to style the images. Thumbnails are commonly used to display a collection of images or media content in a grid-like layout.
+
+
+In Bootstrap 4, what is flexbox?
+In Bootstrap 4, Flexbox (short for "Flexible Box Layout") is a powerful CSS layout model that is used extensively to create flexible and responsive web page layouts. It is a part of the core CSS of Bootstrap and is employed to build a responsive grid system, align elements, and create flexible and dynamic layouts.
+
+
+How can one create an alert in Bootstrap?
+In Bootstrap, you can create an alert using the .alert class. Alerts are used to display important messages or notifications to users. They come in different contextual styles (e.g., success, warning, danger) to convey different types of information.
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Add the Bootstrap CSS link here -->
+</head>
+<body>
+  <div class="container">
+    <div class="alert alert-primary" role="alert">
+      This is a primary alert—check it out!
+    </div>
+  </div>
+</body>
+</html>
+
+
+What is a bootstrap card and how would you create one?
+In Bootstrap, a card is a flexible and extensible content container. It is a versatile component used to present various types of content, such as images, text, buttons, and more, in a consistent and visually appealing manner. Bootstrap cards are commonly used to build user interfaces with elements organized in a grid-like layout.
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Add the Bootstrap CSS link here -->
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="image.jpg" class="card-img-top" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">This is the content of the card. You can add text, buttons, and other elements here.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

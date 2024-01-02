@@ -1,0 +1,131 @@
+What is jQuery?
+jQuery is a JavaScript library that makes it easier to work with HTML documents. It provides a set of tools and functions that simplify common tasks like selecting elements on a webpage, handling events like clicks and form submissions, and creating animations or effects.
+
+How to Apply CSS Using JQuery, How to Add Class and Remove Class in 
+Jquery, JQuery Animation?
+// Apply CSS to a specific element
+$(element).css('property', 'value');
+
+// Apply multiple CSS properties to a specific element
+$(element).css({
+  'property1': 'value1',
+  'property2': 'value2',
+});
+
+// Add a class to a specific element
+$(element).addClass('classname');
+
+// Remove a class from a specific element
+$(element).removeClass('classname');
+
+// Animate an element's properties
+$(element).animate({
+  'property1': 'value1',
+  'property2': 'value2',
+}, duration, easing, callback);
+
+How to create slider with animation?
+<div class="slider">
+  <div class="slide">Slide 1</div>
+  <div class="slide">Slide 2</div>
+  <div class="slide">Slide 3</div>
+</div>
+<button class="prev-btn">Previous</button>
+<button class="next-btn">Next</button>
+$(document).ready(function() {
+  var slider = $('.slider');
+  var slides = $('.slide');
+
+  var currentSlideIndex = 0;
+  var slideCount = slides.length;
+  var slideWidth = slides.first().outerWidth();
+
+  // Function to animate the slider
+  function animateSlider() {
+    // Calculate the position for the next slide
+    var newPosition = -slideWidth * currentSlideIndex;
+
+    // Animate the slider to the new position
+    slider.animate({ 'left': newPosition }, 500);
+  }
+
+  // Function to move to the next slide
+  function nextSlide() {
+    currentSlideIndex++;
+    if (currentSlideIndex >= slideCount) {
+      currentSlideIndex = 0;
+    }
+    animateSlider();
+  }
+
+  // Function to move to the previous slide
+  function prevSlide() {
+    currentSlideIndex--;
+    if (currentSlideIndex < 0) {
+      currentSlideIndex = slideCount - 1;
+    }
+    animateSlider();
+  }
+
+  // Bind click events to next and previous buttons
+  $('.next-btn').on('click', nextSlide);
+  $('.prev-btn').on('click', prevSlide);
+});
+
+Event bubbling tickling example
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        .main *
+        {
+            border:3px solid gray;
+            padding: 20px;
+            display: block;
+       }
+    </style>
+</head>
+<body>   
+    <div class="main">
+        <div class="gp">Grandparent 
+            <ul>Ul 
+                <li> LI 
+                    <span>SPAN</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="gp">Grandparent 
+            <ul>Ul 
+                <li> LI 
+                    <span>SPAN</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+
+        // $('span').parents().css("border","2px solid red");
+
+        // $('span').parents('li').css("border","2px solid red");
+
+        // $('span').parentsUntil('.gp').css("border","2px solid red");
+
+        // $('span').parent().css("border","2px solid red");
+
+        $('.gp').children().css("background","red");
+
+        $('.gp').children().css("background","red");
+
+        $('.gp').find('li').css("background","blue");
+    </script>
+</body>
+</html>

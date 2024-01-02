@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    number1 : <input type="text" id="n1"><br><br>
+    number2 : <input type="text" id="n2"> <br><br>
+    <h1 id="res"></h1>
+    <button onclick="getresult()">+</button>
+    <button onclick=" getresult1()">-</button>
+    <button onclick=" getresult2()">/</button>
+    <button onclick=" getresult3()">*</button>
+    <button onclick=" getresult4()">%</button>
+    <script>
+        no1 = document.getElementById('n1');
+        no2 = document.getElementById('n2');
+        result = document.getElementById('res');
+        function getresult(){
+            result.innerHTML = parseFloat(no1.value) + parseFloat(no2.value);
+        }
+        function getresult1(){
+            result.innerHTML = parseFloat(no1.value) - parseFloat(no2.value);
+        }
+        function getresult2(){
+            result.innerHTML = parseFloat(no1.value) / parseFloat(no2.value);
+        }
+        function getresult3(){
+            result.innerHTML = parseFloat(no1.value) * parseFloat(no2.value);
+        }
+        function getresult4(){
+            result.innerHTML = parseFloat(no1.value) % parseFloat(no2.value);
+        }
+    </script>
+</body>
+</html>

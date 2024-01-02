@@ -1,0 +1,45 @@
+Q.1. What is React Js?
+Ans. React.js (or React) is a popular open-source JavaScript library for building user interfaces (UIs) in web applications. It's known for its component-based architecture, virtual DOM for efficient updates, declarative syntax, and unidirectional data flow. React simplifies UI development and encourages reusability, making it a widely used tool for creating interactive web interfaces.
+
+Q.2. What is NPM in React Js?
+Ans. In React.js, NPM stands for "Node Package Manager." It is a tool used for managing dependencies, running scripts, and version control in your React project. It helps you install packages, execute custom scripts, and ensure consistent package versions across your development team.
+
+Q.3. What is Node Js in React Js?
+Ans. In a React.js project, Node.js is used for server-side tasks, such as creating APIs, handling server endpoints, and server-side rendering. It also manages application configuration, proxies requests during development, and serves as a platform for build and deployment tools. Node.js complements React by providing server-side functionality and supporting the development and deployment of web applications.
+
+Q.4. What is CLI command in React Js?
+Ans. In React.js, CLI commands are commands executed using tools like Create React App to create, build, test, and manage React applications. Common commands include creating a new app, starting a development server, building for production, running tests, and more. These CLI commands streamline common development tasks.
+
+Q.5. What is Components in React Js?
+Ans. In React.js, components are reusable building blocks for user interfaces. They can be either function components or class components, defining how a part of a web page should look and behave. Components can be composed together to create complex UIs, promoting modularity and reusability in React applications.
+
+Q.6.What is Header and Content component in React Js?
+Ans. In React.js, the "Header" component represents the top section of a web page, typically containing elements like logos and navigation menus. The "Content" component represents the main content of the web page, where the primary information and features are displayed. These components help organize and maintain a consistent layout and user experience in a React application.
+
+Q.7. How to install React Js on Windows, Linux Operating System? How to Install NPM and How to check version of NPM?Ans. To install React.js on Windows or Linux:
+
+1. Install Node.js and npm:
+
+=> Windows: Download the Windows Installer from the  official Node.js website and run it.
+=> Linux: Use your package manager to install Node.js and npm.
+2. Check Node.js and npm versions using node -v and npm -v in the command prompt or terminal.
+
+3. Install Create React App globally with npm install -g create-react-app.
+
+4. Check the npm version with npm -v to ensure it's installed correctly.
+
+Q.8. How to check version of React Js?
+Ans. o check the version of React.js in your project:
+
+1. Use npm list react if you're using npm.
+2. Use yarn list react if you're using Yarn.
+3. Check the "dependencies" section in your project's package.json file.
+
+Q.9. How to change in components of React Js?
+Ans. 1. Locate the component you want to change in your project's source code.
+2. Edit the component code to make desired modifications.
+3. Save the changes.
+4. View the updated component, typically through a development server.
+5. Test and debug to ensure the component works as intended.
+6. Optionally, use version control for tracking changes.
+7. If satisfied, run build scripts and deploy the updated component.

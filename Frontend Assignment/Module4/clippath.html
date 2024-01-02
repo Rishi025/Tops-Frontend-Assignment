@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            box-sizing:border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 600px;
+            width: 1200px;
+            margin:100px auto;
+            background:url("images/pexels-熊大-旅遊趣-3389955.jpg");
+            background-size:cover;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+            position:relative;
+        }
+        .main::after{
+            content:"";
+            height:600px;
+            width:1200px;
+            background:rgba(0, 0, 0, 0.24);
+            position:absolute;
+            top:0;
+            left:0;
+        }
+
+        
+        .main .header{
+            height:100px;
+            background:transparent;
+            display:flex;
+        }
+        .main .header .header1{
+            height:100px;
+            width:30%;
+            background:transparent; 
+            padding: 10px 0 0 0;
+        }
+        .main .header .header1 .logo{
+            height:20px;
+            width:60px;
+            display:flex;
+            margin: 0 0 0 150px;
+            outline:2px solid white;
+            letter-spacing:3px;
+            text-align:center;
+            font-size:14px;
+           
+        }
+        .main .header .header1 .logo .logo1{
+            height:20px;
+            width:40%;
+            background: white;
+            padding: 5px 0 0 0;
+            font-weight:bold;
+        }
+        .main .header .header1 .logo .logo2{
+            height:20px;
+            width:60%;
+            color:white;
+            font-size:17px;
+            background:black;
+        }
+        .main .header .header2{
+            height:100px;
+            width:70%;
+            background:transparent; 
+            padding: 15px 0 0 50px;
+        }
+        .main .header .header2 li{
+            display:inline;
+            margin: 0 20px 0 0;
+            position:relative;
+        }
+        .main .header .header2 li a{
+            text-decoration:none;
+            color:white;
+            text-transform:uppercase;
+            font-size:12px;
+            text-shadow: 0 0 2px black;
+        }
+        .main .header .header2 li .line{
+            height:5px;
+            width:100%;
+            background:orangered;
+            position:absolute;
+            top:150%;
+            left:0;
+        }
+        .main .header .header2 .home a{
+            color:orangered;
+            text-shadow: 0 0 0 transparent;
+        }
+     .main .box{
+        height:400px;
+        width:900px;
+        text-align:center;
+        margin: 0 0 0 150px;
+        padding: 100px 0 0 0;
+        position:relative;
+      }
+      .main .box p:nth-child(1){
+        font-size:18px;
+        color:white;
+        text-shadow:0 0 2px black;
+        margin: 0 10px 0 0;
+      }
+      .main .box p:nth-child(2){
+        color:white;
+        text-transform:uppercase;
+        font-weight:bold;
+        margin: 20px 80px 0 0;
+        font-size:70px;
+        text-shadow: 0 0 2px black;
+        letter-spacing:5px;
+      }
+      .main .box .line1{
+        height:2px;
+        width:65px;
+        background:white;
+        position:absolute;
+        top:57%;
+        left:36%;
+      }
+      .main .box .line2{
+        height:2px;
+        width:65px;
+        background:white;
+        position:absolute;
+        top:57%;
+        left:48%;
+      } 
+      .main .box .circle{
+        height:10px;
+        width:10px;
+        background:white;
+        box-shadow:0 0 3px red inset, 0 0 5px red;
+        border-radius:50%;
+        position:absolute;
+        top:56%;
+        left:45%;
+      }
+     .main .box .text{
+       height:50px;
+       width:600px;
+       font-size:16px;
+       color:white;
+       text-shadow: 0 0 5px black;
+       margin: 30px 0 0 90px;
+
+     }
+     .main .box .btn1{
+        height:35px;
+        width:20%;
+        color:white;
+        background:orangered;
+        font-weight:bold;
+        border:none;
+        outline:2px solid white;
+        margin:30px 20px 0 -40px;
+        text-transform:uppercase;
+     }
+     .main .box .btn2{
+        height:35px;
+        width:20%;
+        color:white;
+        background:transparent;
+        border:none;
+        outline:2px solid white;
+        
+        text-transform:uppercase;
+        font-weight:bold;
+     }
+     .main .icon1{
+        height:40px;
+        width:40px;
+        background:white;
+        text-align:center;
+        border-radius:50%;
+        line-height:40px;
+        position:absolute;
+        top:94%;
+        left:48.5%;
+     }
+     .main .icon1 .fa-anchor{
+        color:orangered;
+     }
+     .main .icon2{
+        height:40px;
+        width:40px;
+        background:white;
+        text-align:center;
+        line-height:40px;
+        position:absolute;
+        top:45%;
+        left:2%;
+     }
+     .main .icon3{
+        height:40px;
+        width:40px;
+        background:white;
+        text-align:center;
+        line-height:40px;
+        position:absolute;
+        top:45%;
+        right:2%;
+     }
+    </style>
+</head>
+<body>
+    <!-- Main start  -->
+   <div class="main">
+    <!-- Header start  -->
+    <div class="header">
+        <div class="header1">
+            <div class="logo">
+                <div class="logo1">L</div>
+                <div class="logo2">ogo</div>
+        </div>
+        </div>
+        <div class="header2">
+            <ul>
+                <li class="home"><a href="">Home</a>
+                <div class="line"></div></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Header closed  -->
+
+    <!-- box start  -->
+    <div class="box">
+        <p>Our Clients Are Our First Priority</p>
+        <p>Welcome to Sky</p>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="circle"></div>
+        <div class="text">
+        Lorem ipsum is simply dummy text of the printing and typewritting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a gallery of type and scrambled it to make a type specimen book.</div>
+        <button class="btn1">Get Started Now</button>
+        <button class="btn2">Learn More</button>
+    </div>
+    <!-- box closed  -->
+    
+    <div class="icon1"><i class="fa-solid fa-anchor"></i></div>
+    <div class="icon2"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="icon3"><i class="fa-solid fa-chevron-left fa-rotate-180"></i></div>
+   </div> 
+   <!-- main closed  -->
+   
+   
+</body>
+</html>

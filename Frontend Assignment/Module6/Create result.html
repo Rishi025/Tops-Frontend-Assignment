@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Mark : <input type="text" id="Mark1" /><br>
+        Mark : <input type="text" id="Mark2" /><br>
+        Mark : <input type="text" id="Mark3" /><br>
+        Mark : <input type="text" id="Mark4" /><br> <br>
+        <input type="button" onClick="findTotal()" Value="Find Total" />
+        <input type="button" onClick="findAverage()" Value="Find Average" />
+        <input type="button" onClick="findPercentage()" Value="Find Percentage" />
+      </form><br>
+      
+      Result : <br>
+      <span id = "result"></span>
+
+      <script>
+        function findTotal() {
+  var num1 = document.getElementById("Mark1").value;
+  var num2 = document.getElementById("Mark2").value;
+  var num3 = document.getElementById("Mark3").value;
+  var num4 = document.getElementById("Mark4").value;
+  document.getElementById("result").innerHTML = parseFloat(num1) + parseFloat(num2) + parseFloat(num3) +  parseFloat(num4);
+}
+
+function findAverage() { 
+  var num1 = document.getElementById("Mark1").value;
+  var num2 = document.getElementById("Mark2").value;
+  var num3 = document.getElementById("Mark3").value;
+  var num4 = document.getElementById("Mark4").value;
+document.getElementById("result").innerHTML = parseFloat(num1) + parseFloat(num2) + parseFloat(num3) +  parseFloat(num4)/4;
+}
+
+function findPercentage() { 
+  var num1 = document.getElementById("Mark1").value;
+  var num2 = document.getElementById("Mark2").value;
+  var num3 = document.getElementById("Mark3").value;
+  var num4 = document.getElementById("Mark4").value;
+document.getElementById("result").innerHTML = (parseFloat(num1) + parseFloat(num2) + parseFloat(num3) +  parseFloat(num4))/400*100;
+}
+      </script>
+</body>
+</html>

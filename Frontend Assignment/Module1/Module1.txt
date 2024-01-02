@@ -1,0 +1,32 @@
+Module 1) – Foundation
+Q.1.How does the Internet Work?
+The internet is like a giant web of connected computers. Each computer has a unique address called an IP address. When you want to visit a website or send information, your device breaks it into small pieces called packets.
+
+These packets travel across the internet through routers, which are like traffic directors, deciding the best path for them to reach their destination. Internet Service Providers (ISPs) are like the on-ramps and highways that connect you to this network.
+
+When you type a website name, the Domain Name System (DNS) translates it into an IP address. Browsers help you view web pages, which are stored on servers. Servers are like powerful computers that store and share website content.
+
+Security protocols, like SSL/TLS, encrypt data for secure communication. Firewalls act as guards, monitoring and controlling incoming and outgoing traffic to protect networks.
+
+In essence, the internet is a network of devices, protocols, and infrastructure that work together to enable communication, data sharing, and access to information worldwide.
+
+Q.2. DNS and how it works?
+DNS, or the Domain Name System, is like the phonebook of the internet. When you type a website address, it translates it into the corresponding numerical IP address needed to locate and connect to that website. This process involves contacting a series of servers, starting from the root DNS servers and working down to authoritative servers for the specific domain. Once the correct IP address is found, it's returned to your device, allowing you to access the desired website.
+
+Q.3.What is HTTP
+HTTP, or Hypertext Transfer Protocol, is the foundation of data communication on the web. It enables the exchange of information between web browsers and servers. HTTP is a stateless, text-based protocol that uses URLs for resource location. It includes methods like GET and POST, and servers respond with status codes indicating the outcome of the request. While HTTP transmits data in plain text, HTTPS adds encryption for security.
+
+Q.4.Browsers and how they work?
+Web browsers are software that lets you access the internet. You enter a web address, the browser requests the page from the server, receives and interprets the code (HTML, CSS, JavaScript), and displays the web page. Browsers also handle user interactions, support extensions, and ensure security while navigating the web.
+
+Q.5.What is Domain Name?
+A domain name is a human-readable address used to identify and access resources on the internet, such as websites. It consists of a second-level domain (e.g., "example") and a top-level domain (e.g., ".com"). Domain names make it easier for people to navigate the web compared to using numerical IP addresses.
+
+Q.6.What is hosting?
+Web hosting is a service that provides space on servers for storing website files, making the site accessible on the internet. It ensures continuous availability, handles security, and may include features like domain association, email hosting, and scalability.
+
+Q.7.Git and GITHUB Training?
+Git is a distributed version control system used in software development. It tracks changes in source code, supports branching for parallel development, and enables collaboration among multiple developers. Git repositories store project files and history, and platforms like GitHub and GitLab provide remote hosting. Developers use commands like "commit," "pull," and "push" to manage code changes and synchronization. It is known for its efficiency, speed, and flexibility.
+
+
+

@@ -1,0 +1,201 @@
+Q.1.Careers in Web Technologies and Job Roles
+Web Development:
+
+Front-End Developer
+Back-End Developer
+Full-Stack Developer
+Web Design:
+
+UI/UX Designer
+Web Content Management:
+
+Content Strategist/Manager
+Content Writer/Copywriter
+E-Commerce:
+
+E-Commerce Developer
+E-Commerce Manager
+Web Administration and Infrastructure:
+
+Web Administrator
+DevOps Engineer
+Digital Marketing:
+
+SEO Specialist
+Social Media Manager
+Web Analytics:
+
+Web Analyst
+Data Analyst
+Quality Assurance:
+
+QA Tester
+Project Management:
+
+Web Project Manager
+Cybersecurity:
+
+Web Security Analyst
+
+Q.2. Difference between Web Designer and Web Developer
+
+Web Designer:
+Focuses on visual aspects and user experience (UI/UX).
+Uses design software for wireframes and prototypes.
+Skills include graphic design; basic HTML/CSS knowledge.
+Collaborates closely with developers.
+
+Web Developer:
+Focuses on functionality and interactivity.
+Uses coding languages (HTML, CSS, JavaScript, etc.) and frameworks.
+Skills include strong programming and problem-solving.
+Implements designs, tests, and resolves technical issues.
+Collaborates closely with designers.
+
+Q.3. What is the Facebook Pixel?
+The Facebook Pixel is a tracking tool used by businesses on their websites to monitor user interactions. It helps track conversions, create custom audiences for targeted advertising, optimize ad delivery, and gain insights into user behavior for effective marketing on the Facebook platform.
+
+Q.4.How does the website works
+
+Domain Entry:
+Users enter a domain name (e.g., www.example.com) in their browsers.
+DNS Translation:
+The DNS translates the domain into the corresponding IP address of the web server.
+HTTP Request:
+The browser sends an HTTP request to the web server for the desired web page or resource.
+Server Processing:
+The web server processes the request, generates an HTML document, and may access databases or run scripts.
+HTML Rendering:
+The browser receives HTML, processes CSS for layout, executes JavaScript for interactivity, and loads other resources.
+User Interaction:
+Users interact with the web page, triggering client-side scripts or sending additional HTTP requests.
+CDN (Optional):
+Content Delivery Networks may be used for faster and reliable content delivery.
+Security Measures:
+HTTPS encrypts data, and websites may implement security features for user protection.
+Analytics:
+Tracking tools collect data on user interactions for analysis.
+
+Q.5.Client-Side Scripting Languages:
+
+Example: JavaScript
+Execution: Runs on the user's browser.
+Purpose: Enhances user interfaces, enables interactivity, and provides immediate feedback.
+Advantages: Faster response, reduced server load.
+Server-Side Scripting Languages:
+
+Examples: PHP, Python, Ruby, Node.js, Java, .NET (C#)
+Execution: Runs on the web server.
+Purpose: Manages database operations, generates dynamic content, handles authentication, and ensures security.
+Advantages: Security, consistent functionality, access to server resources.
+Interaction:
+
+Both client and server scripts interact for data exchange and user communication.
+Full-Stack Development:
+
+Full-stack developers work with both client-side and server-side technologies to build comprehensive web solutions.
+
+Q.6.Domains and Hosting
+domains are human-readable addresses used to access websites, and hosting is the service that stores and serves website files, making the site accessible on the internet. Users register domains through registrars and obtain hosting services from hosting providers. Connecting a domain to hosting enables a website to be live on the web.
+
+Q.7.Types of Websites (Static and Dynamic Websites) 
+Static Websites:
+
+Fixed content for every visitor.
+Built using HTML, CSS, and minimal scripting.
+Simple maintenance and fast loading.
+Ideal for basic online presence, portfolios, or landing pages.
+Dynamic Websites:
+
+Content changes based on user interactions or database data.
+Utilizes server-side scripting and database integration.
+Offers interactivity, easy content updates, and personalized experiences.
+Suitable for social media platforms, blogs, e-commerce, and dynamic content needs.
+
+Q.8. Web Standards and W3C recommendations
+HTML (Hypertext Markup Language):
+
+Standard markup language for web pages.
+Latest version: HTML5.
+CSS (Cascading Style Sheets):
+
+Style sheet language for HTML.
+Latest version: CSS3.
+JavaScript:
+
+Programming language for interactive web pages.
+Follows ECMAScript standards.
+Web Accessibility (WCAG):
+
+Guidelines for accessible web content.
+Latest version: WCAG 2.1.
+XML (Extensible Markup Language):
+
+Markup language for human-readable, machine-readable documents.
+Stable standard: XML 1.0.
+SVG (Scalable Vector Graphics):
+
+XML-based vector image format.
+Latest version: SVG 2.
+WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications):
+
+Attributes for enhanced web content accessibility.
+WebRTC (Web Real-Time Communication):
+
+APIs for real-time communication in web browsers.
+Stable standard: WebRTC 1.0.
+Web APIs (Application Programming Interfaces):
+
+Interfaces for web browsers to interact with external services.
+Various APIs, including DOM, Geolocation, and Web Storage.
+
+Q.9.Responsive Web Designing
+
+Responsive Web Design (RWD):
+
+Definition:
+An approach to web design that ensures a website's layout and elements adapt and respond to different screen sizes and devices.
+Key Principles:
+
+Flexible Grids:
+Uses relative units like percentages for layout elements, ensuring flexibility across various screen sizes.
+Media Queries:
+
+CSS media queries are used to apply styles based on characteristics such as screen width, height, or device orientation.
+Flexible Images:
+
+Images are set to be flexible and scale within their containing elements to prevent distortion.
+Viewport Meta Tag:
+
+The viewport meta tag is utilized to control the viewport's width and scale on different devices
+
+Q.10.Protocol:
+Definition: Set of rules governing data communication in a network.
+Key Aspects: Specifies data format, error handling, addressing, and sequencing.
+Examples: HTTP, TCP/IP, SMTP, FTP.
+Layers: Often follows a layered architecture.
+Standardization: Developed and maintained by organizations.
+Encapsulation: Data is encapsulated for transmission.
+Security: Some protocols focus on secure data transfer.
+Evolution: Can evolve to accommodate technological changes.
+
+Q.11. Basics of SEO
+Ans. SEO involves optimizing various aspects of a website to enhance its visibility on search engines, increase organic traffic, and provide a positive user experience. This includes keyword research, content optimization, technical SEO, and staying informed about search engine algorithms.
+
+Q.12.SDLC (Software Development Life Cycle):
+
+Definition:
+Systematic process for software planning, creation, testing, deployment, and maintenance.
+Phases:
+Planning, Requirements Gathering, Design, Implementation, Testing, Deployment, Maintenance.
+Models:
+Waterfall, Agile, Iterative, V-Model, Spiral.
+Importance:
+Structured approach, quality assurance, project management, communication facilitation.
+Challenges:
+Rigidity in Waterfall, uncertainty in Agile, resource-intensive.
+Continuous Improvement:
+Incorporates methodologies like DevOps for ongoing enhancement throughout the software life cycle.
+
+
+
